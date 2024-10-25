@@ -5,6 +5,8 @@
 
     img {
         max-width: 250px;
+        width: 262.5px;
+        height: 262.5px;
         align-self: center;
         background-color: var(--project-card-bg);
     }
@@ -25,6 +27,9 @@
         flex-direction: column;
         align-items: center;
         gap: 30px;
+        word-wrap: break-word; /* Ensures long words break */
+        text-align: center; /* Optional: Centers the text */
+        max-width: 100%; /* Prevents overflow */
       }
 
     @media (width >= 800px) {
