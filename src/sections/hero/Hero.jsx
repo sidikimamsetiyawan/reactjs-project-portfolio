@@ -38,13 +38,10 @@ function Hero() {
             <h1>Sidik Imam Setiyawan</h1>
             <h2>Fullstack Developer</h2>
             <span>
-                <a href='https://twitter.com/' target='_blank'>
-                    <img src={twitterIcon} alt='Twitter Icon' />
-                </a>
-                <a href='https://github.com/' target='_blank'>
+                <a href='https://github.com/sidikimamsetiyawan' target='_blank'>
                     <img src={githubIcon} alt='Github Icon' />
                 </a>
-                <a href='https://linkedin.com/' target='_blank'>
+                <a href='https://www.linkedin.com/in/sidikimamsetiyawan' target='_blank'>
                     <img src={linkedinIcon} alt='Linkedin Icon' />
                 </a>
             </span>
